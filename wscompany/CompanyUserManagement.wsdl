@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Oracle JAX-WS 2.1.5. --><wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.clarochile.cl/CompanyUserManagement/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CompanyUserManagement" targetNamespace="http://www.clarochile.cl/CompanyUserManagement/">
+    <wsdl:types>
+        <xsd:schema xmlns:Q1="http://webservices.clarochile.cl/schemas" targetNamespace="http://www.clarochile.cl/CompanyUserManagement/">
+            <xsd:import schemaLocation="CompanyUserManagement.xsd" namespace="http://webservices.clarochile.cl/schemas"/>   
+            <xsd:element name="AddUserRequest">
+                <xsd:complexType>
+                    <xsd:sequence maxOccurs="1" minOccurs="1">
+                        <xsd:element name="companyUser" type="Q1:CompanyUserType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="AddUserResponse">
+                <xsd:complexType>
+                    <xsd:sequence maxOccurs="1" minOccurs="1">
+
+                        <xsd:element name="status" type="Q1:WebServiceStatusType" maxOccurs="1" minOccurs="1">
+                        </xsd:element>
+                        <xsd:element name="userID" type="xsd:long" maxOccurs="1" minOccurs="0">
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="EditUserRequest">
+                <xsd:complexType>
+                    <xsd:sequence maxOccurs="1" minOccurs="1">
+
+                        <xsd:element name="companyUser" type="Q1:CompanyUserType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="EditUserResponse">
+                <xsd:complexType>
+                    <xsd:sequence maxOccurs="1" minOccurs="1">
+
+                        <xsd:element name="status" type="Q1:WebServiceStatusType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="DeleteUserRequest">
+                <xsd:complexType>
+                    <xsd:sequence maxOccurs="1" minOccurs="1">
+
+                        <xsd:element name="userID" type="xsd:long" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="DeleteUserResponse">
+                <xsd:complexType>
+                    <xsd:sequence maxOccurs="1" minOccurs="1">
+
+                        <xsd:element name="status" type="Q1:WebServiceStatusType" maxOccurs="1" minOccurs="1"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="AddUserRequest">
+        <wsdl:part name="parameters" element="tns:AddUserRequest"/>
+    </wsdl:message>
+    <wsdl:message name="AddUserResponse">
+        <wsdl:part name="parameters" element="tns:AddUserResponse"/>
+    </wsdl:message>
+    <wsdl:message name="EditUserRequest">
+        <wsdl:part name="parameters" element="tns:EditUserRequest"/>
+    </wsdl:message>
+    <wsdl:message name="EditUserResponse">
+        <wsdl:part name="parameters" element="tns:EditUserResponse"/>
+    </wsdl:message>
+    <wsdl:message name="DeleteUserRequest">
+        <wsdl:part name="parameters" element="tns:DeleteUserRequest"/>
+    </wsdl:message>
+    <wsdl:message name="DeleteUserResponse">
+        <wsdl:part name="parameters" element="tns:DeleteUserResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="CompanyUserManagement">
+
+        <wsdl:operation name="AddUser">
+            <wsdl:input message="tns:AddUserRequest"/>
+            <wsdl:output message="tns:AddUserResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="EditUser">
+            <wsdl:input message="tns:EditUserRequest"/>
+            <wsdl:output message="tns:EditUserResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="DeleteUser">
+            <wsdl:input message="tns:DeleteUserRequest"/>
+            <wsdl:output message="tns:DeleteUserResponse"/>
+        </wsdl:operation>
+
+    </wsdl:portType>
+    <wsdl:binding name="CompanyUserManagementSOAP" type="tns:CompanyUserManagement">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="AddUser">
+            <soap:operation soapAction="http://www.clarochile.cl/CompanyUserManagement/AddUser"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="EditUser">
+            <soap:operation soapAction="http://www.clarochile.cl/CompanyUserManagement/EditUser"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="DeleteUser">
+            <soap:operation soapAction="http://www.clarochile.cl/CompanyUserManagement/DeleteUser"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="CompanyUserManagement">
+        <wsdl:port binding="tns:CompanyUserManagementSOAP" name="CompanyUserManagementSOAP">
+            <soap:address location="http://wlproducersucvirprod.clarochile.org:80/CompanyUserManagementWS/CompanyUserManagement"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

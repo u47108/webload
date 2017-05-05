@@ -1,0 +1,125 @@
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@6b91312f]
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [1]: 61108000-k;Benjamin Muñoz;7060736-0;u47108@gmail.com.
+
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:57:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@2969ae7c]
+05/05/2017 11:57:22 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:57:22 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [2]: 84716400-k;Rodrigo Aravena;11580211-9;u47108@gmail.com.
+
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@3f21572b]
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [1]: 61108000-k;Benjamin Muñoz;7060736-0;u47108@gmail.com.
+
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@78871dc5]
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:58:15 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [2]: 84716400-k;Rodrigo Aravena;11580211-9;u47108@gmail.com.
+
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@5c606f26]
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [1]: 61108000-k;Benjamin Muñoz;7060736-0;u47108@gmail.com.
+
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@78226c94]
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:58:28 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [2]: 84716400-k;Rodrigo Aravena;11580211-9;u47108@gmail.com.
+
+05/05/2017 11:58:48 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 11:58:48 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:58:48 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:58:48 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:58:48 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:58:48 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@2ffad8fe]
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [1]: 61108000-k;Benjamin Muñoz;7060736-0;u47108@gmail.com.
+
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@3060302e]
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 11:58:49 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [2]: 84716400-k;Rodrigo Aravena;11580211-9;u47108@gmail.com.
+
+05/05/2017 11:59:07 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 11:59:47 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 11:59:54 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 11:59:55 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 11:59:55 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 11:59:57 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@34337893]
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@72f264c6]
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [1]: 61108000-k;Benjamin Muñoz;7060736-0;u47108@gmail.com.
+
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@71a5ad04]
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 12:04:53 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [2]: 84716400-k;Rodrigo Aravena;11580211-9;u47108@gmail.com.
+
+05/05/2017 12:05:49 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 12:06:23 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 12:06:25 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 12:06:25 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 12:06:26 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 12:06:27 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@4f675ff4]
+05/05/2017 12:08:05 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 12:08:08 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [1]: 61108000-k;Benjamin Muñoz;7060736-0;u47108@gmail.com.
+
+05/05/2017 12:08:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 12:08:23 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 12:08:24 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 12:08:24 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 12:08:24 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@33a3668a]
+05/05/2017 12:08:28 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Runtime exception: null
+05/05/2017 12:08:31 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [2]: 84716400-k;Rodrigo Aravena;11580211-9;u47108@gmail.com.
+
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@7b63e1f]
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Ya existe un usuario con los datos <rutUsuario[7060736-0], rutEmpresa[61108000-K]>
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [1]: 61108000-k;Benjamin Muñoz;7060736-0;u47108@gmail.com.
+
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [u47108@gmail.com]
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@34021be6]
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Error : Ya existe un usuario con los datos <rutUsuario[11580211-9], rutEmpresa[84716400-K]>
+05/05/2017 12:30:21 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error en line [2]: 84716400-k;Rodrigo Aravena;11580211-9;u47108@gmail.com.
+
