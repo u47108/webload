@@ -161,6 +161,7 @@ public class Main {
                     comp.setAccessFactura(1);
                     comp.setAccessTicket(1);
                     comp.setAccessReporte(1);
+                    comp.setAccessProducto(1);
                     
                     user.setCompanyUser(comp);
                     if (notificarWS(user)) {
