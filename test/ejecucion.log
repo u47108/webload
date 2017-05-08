@@ -1,0 +1,20 @@
+08/05/2017 16:53:13 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+08/05/2017 16:57:10 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+08/05/2017 16:57:10 - [com.mobext.dev.process.Main.execute] - [INFO] - Se leeran los archivos...basetest.csv
+08/05/2017 16:57:10 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Error importing line [
+08/05/2017 16:59:27 - [com.mobext.dev.process.Main.execute] - [INFO] - ---- Iniciando proceso ---- 
+08/05/2017 16:59:27 - [com.mobext.dev.process.Main.execute] - [INFO] - Se leeran los archivos...basetest.csv
+08/05/2017 16:59:27 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+08/05/2017 16:59:27 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+08/05/2017 16:59:27 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+08/05/2017 16:59:27 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [dev.mobext@gmail.com]
+08/05/2017 16:59:27 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@19e1023e]
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Se encola el mensaje: 0
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Proceso registro N[1]
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - entorno.cargando propiedades
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - *** iniciando enviarEmail ***
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - url [http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement]
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - correo [dev.mobext@gmail.com]
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - mensaje [cl.clarochile.webservices.schemas.CompanyUserType@3c679bde]
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.notificarWS] - [SEVERE] - Se encola el mensaje: 0
+08/05/2017 16:59:29 - [com.mobext.dev.process.Main.cargarBaseClientes] - [SEVERE] - Proceso registro N[2]

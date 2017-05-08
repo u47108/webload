@@ -88,18 +88,26 @@ public class Main {
     }
 
     public static void main(String args[]) throws Exception {
-        conf = new Config();
+        if(args == null) {
+            throw new Exception("Debe ingresar el directorio de ejecucion");
+        }
+        
+        //rutaArchivos = conf.getProperty("dir.input", "");
+        rutaArchivos = args[0];
+        if(rutaArchivos.endsWith(File.separator)) {
+            rutaArchivos = rutaArchivos.substring(0, rutaArchivos.length() - 1);
+        }
+        conf = new Config( rutaArchivos + File.separator + "config.properties");
         deleteFiles = conf.getProperty("dir.deleteFiles", "false").equalsIgnoreCase("true");
-        rutaArchivos = conf.getProperty("dir.input", "/home/luis/HAVAS/CargaInicialEmpresas");
         urlWSEmpresas = conf.getProperty("url.company", "http://wlproducersucvirtest.clarochile.org/CompanyUserManagementWS/CompanyUserManagement");
         extensionArchivos = conf.getProperty("dir.extension", "csv");
-        setLogger();
+        setLogger(rutaArchivos);
         System.err.println("Loading  Carga Inicial Empresas . . . ");
 
         Main dts = new Main();
         dts.execute();
     }
-
+     
     public boolean execute() {
         log.info("---- Iniciando proceso ---- ");
 
@@ -111,6 +119,7 @@ public class Main {
             log.info("No hay archivos por procesar. Proceso finalizado");
             return true;
         }
+        log.info("Se leeran los archivos..." + files.get(0));
         //se procesa el primero
         if (cargarBaseClientes(files.get(0))) {
             return true;
@@ -131,7 +140,7 @@ public class Main {
         SimpleDateFormat sdfSalida = new SimpleDateFormat("yyyymmdd");
         String sFechaHoy = sdfSalida.format(new Date());
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(file));
+            BufferedReader reader = new BufferedReader(new FileReader(this.rutaArchivos + File.separator + file));
             reader.readLine(); //skip first line
             String line;
             int count = 0;
@@ -181,7 +190,8 @@ public class Main {
             reader.close();
 
         } catch (Exception error) {
-
+            error.printStackTrace();
+            log.severe("Error importing line [");
         }
         return true;
     }
@@ -207,9 +217,9 @@ public class Main {
         return filePath;
     }
 
-    private static void setLogger() {
-        String logFile = conf.getProperty("log.file", "logs/log_proceso.log");
-        boolean console = conf.getProperty("log.console", "false").equalsIgnoreCase("true");
+    private static void setLogger(String ruta) {
+        String logFile = ruta + File.separator + "ejecucion.log";
+        boolean console = true;
         try {
             FileHandler fh = new FileHandler(logFile, true);
             log.addHandler(fh);
